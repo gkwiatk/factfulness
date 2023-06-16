@@ -112,6 +112,7 @@ function getUserResult() {
 
   /* create personalized messages depending on level of score */
   const messageStandard1 = `<h2>Twój wynik to ${goodAnswersArray.length} / ${badAnswersArray.length + goodAnswersArray.length}.</h2>`;
+  const messageStandard2 = `<p>You responded to ${goodAnswersArray.length + badAnswersArray.length - missingAnswersArray.length} question(s) out of ${badAnswersArray.length + goodAnswersArray.length}. No answer was regarded as bad answer in your result.</p>`;
   const messageStandard3 = `<p>Zobacz powyżej, aby porównać swoje odpowiedzi z poprawnymi. Jeśli chcesz spróbować jeszcze raz, kliknij przycisk resetowania.</p>`;
   const messageHigh = `${messageStandard1}
                       <p>Wow, to jest imponujące.</p>
