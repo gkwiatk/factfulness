@@ -115,13 +115,13 @@ function getUserResult() {
   const messageStandard2 = `<p></p>`;
   const messageStandard3 = `<p>Zobacz powyżej, aby porównać swoje odpowiedzi z poprawnymi. Jeśli chcesz spróbować jeszcze raz, kliknij przycisk resetowania.</p>`;
   const messageHigh = `${messageStandard1}
-                      <p>Wow, to jest imponujące.</p>
+                      <p> Imponujący wynik! Masz naprawdę aktualną wiedzę o świecie. Jak pokazuje H. Rosling ze współautorami w książce "Factfulness" z tymi pytaniami dużo większy problem mieli nawet laureaci Nagrody Nobla. </p>
                       ${messageStandard2}${messageStandard3}`;
   const  messageMedium = `${messageStandard1}
-                          <p>Nieźle, ale mogłoby być lepiej.</p>
+                          <p>Nieźle. Masz całkiem dobrą wiedzę o świecie. Jak pokazuje H. Rosling ze współautorami w książce "Factfulness" z tymi pytaniami większy problem mieli nawet laureaci Nagrody Nobla.</p>
                           ${messageStandard2}${messageStandard3}`;
   const messageLow = `${messageStandard1}
-                      <p>Rozczarowany? Cóż, wielu naukowców również nie przekroczyło tego wyniku.</p>
+                      <p>Wynik jest niski. Na pocieszenie dodamy, że – jak pokazuje H. Rosling ze współautorami w książce "Factfulness" – z tymi pytaniami podobny problem mieli nawet laureaci Nagrody Nobla.</p>
                       ${messageStandard2}${messageStandard3}`;
 
   /* check the level od user score: high, medium or low and insert proper message to DOM */
