@@ -112,7 +112,7 @@ function getUserResult() {
 
   /* create personalized messages depending on level of score */
   const messageStandard1 = `<h2>Twój wynik to ${goodAnswersArray.length} / ${badAnswersArray.length + goodAnswersArray.length}.</h2>`;
-  const messageStandard2 = `<p>Udzielono odpowiedzi na ${goodAnswersArray.length + badAnswersArray.length - missingAnswersArray.length} pytanie/pytań z ${badAnswersArray.length + goodAnswersArray.length}.</p>`;
+  const messageStandard2 = `<p>Udzielono odpowiedzi na ${goodAnswersArray.length + badAnswersArray.length - missingAnswersArray.length} pytań.</p>`;
   const messageStandard3 = `<p>Zobacz powyżej, aby porównać swoje odpowiedzi z poprawnymi. Jeśli chcesz spróbować jeszcze raz, kliknij przycisk resetowania.</p>`;
   const messageHigh = `${messageStandard1}
                       <p>Wow, to jest imponujące.</p>
