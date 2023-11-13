@@ -115,13 +115,13 @@ function getUserResult() {
   const messageStandard2 = `<p></p>`;
   const messageStandard3 = `<p>Powyżej możesz przejrzeć swoje odpowiedzi i porównać z poprawnymi. Jeśli chcesz spróbować jeszcze raz, kliknij przycisk resetowania.</p>`;
   const messageHigh = `${messageStandard1}
-                      <p> Imponujący wynik! Masz naprawdę aktualną wiedzę o świecie. Jak pokazuje H. Rosling ze współautorami w książce "Factfulness" z tymi pytaniami dużo większy problem mieli nawet laureaci Nagrody Nobla. </p>
+                      <p> Imponujący wynik! Masz naprawdę aktualną wiedzę o świecie. Jak pokazuje H. Rosling ze współautorami w książce "Factfulness" z tymi pytaniami dużo większy problem mieli nie tylko zwykli ludzie, ale też naukowcy a nawet laureaci Nagrody Nobla. </p>
                       ${messageStandard2}${messageStandard3}`;
   const  messageMedium = `${messageStandard1}
-                          <p>Nieźle, masz całkiem dobrą wiedzę o świecie. Jak pokazuje H. Rosling ze współautorami w książce "Factfulness" z tymi pytaniami większy problem mieli nawet laureaci Nagrody Nobla.</p>
+                          <p>Nieźle, masz całkiem dobrą i dość aktualną wiedzę o świecie. Jak pokazuje H. Rosling ze współautorami w książce "Factfulness" z tymi pytaniami większy problem mieli zarówno zwykli ludzie, ale też naukowcy, a nawet laureaci Nagrody Nobla.</p>
                           ${messageStandard2}${messageStandard3}`;
   const messageLow = `${messageStandard1}
-                      <p>Wynik nie jest wysoki. Na pocieszenie dodamy, że – jak pokazuje H. Rosling ze współautorami w książce "Factfulness" – z tymi pytaniami podobny problem mieli nawet laureaci Nagrody Nobla.</p>
+                      <p> No cóż – wynik nie jest wysoki. Ale – jak pokazuje H. Rosling ze współautorami w książce "Factfulness" – z tymi pytaniami podobny problem mieli nie tylko zwykli ludzie, ale także naukowcy, a nawet laureaci Nagrody Nobla.</p>
                       ${messageStandard2}${messageStandard3}`;
 
   /* check the level od user score: high, medium or low and insert proper message to DOM */
